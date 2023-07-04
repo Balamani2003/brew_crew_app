@@ -30,7 +30,7 @@ final AuthService _auth=AuthService();
         backgroundColor: Colors.brown[50],
         appBar: AppBar(
           backgroundColor: Colors.brown[400],
-          title: Text('BREW CREWW'),
+          title: Text('BREW CREW'),
           actions: [
             TextButton.icon(onPressed: () async{
               await _auth.SignOut();
